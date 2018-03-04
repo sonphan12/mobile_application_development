@@ -13,7 +13,6 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -80,7 +79,7 @@ public class LongLatToAddress {
 					HttpURLConnection con = (HttpURLConnection) url.openConnection();
 					con.setRequestMethod("GET");
 					con.setRequestProperty("User-Agent", "Mozilla/5.0");
-					BufferedReader buffer =  new BufferedReader(new InputStreamReader(con.getInputStream()));;
+					BufferedReader buffer =  new BufferedReader(new InputStreamReader(con.getInputStream(), "UTF-8"));;
 					String inputLine;
 					StringBuffer response = new StringBuffer();
 					while ((inputLine = buffer.readLine()) != null) {
