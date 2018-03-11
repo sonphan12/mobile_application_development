@@ -1,4 +1,4 @@
-package com.ex2.rest;
+package com.part2.rest;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -6,8 +6,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
 import java.lang.Math;
 
-@Path("/distance")
-public class Ex2Service
+@Path("/app")
+public class Part2Service
 {
 	@GET
 	@Path("/{message}")
