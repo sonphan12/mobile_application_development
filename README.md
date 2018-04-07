@@ -18,4 +18,7 @@
 - Web service sẽ trả về kết quả ở dạng json là: ```{ "distance":256.0 }```
 ## Ex2:
 - App chuyển đổi tiền tệ
+- Tỉ lệ tiền tệ được cập nhật mới nhất, dùng webservice của https://fixer.io/
+- Dùng Volley của android để request webservice
+- Có dữ liệu backup từ lần request webservice gần nhất đề phòng trường hợp dùng offline.
 - File apk nằm trong thư mục:```Ex2\app\apk``` 
