@@ -2,7 +2,7 @@
 
 ## Ex1/Part 1:
 - Eclipse Oxygen project
-- Ứng dụng lấy địa chỉ từ latitude và longtitude.
+- Ứng dụng lấy địa chỉ từ latitude và longitude.
 - Trên nền tảng java swing
 - Dùng web service geocoding của google
 - File .jar để chạy ứng dụng nằm trong Ex1/Part 1/app
