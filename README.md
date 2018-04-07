@@ -17,5 +17,5 @@
 - Ví dụ khi cần tính khoảng cách giữa 2 điểm có latitude và longitude lần lượt là ```[10.850700, 106.764722]``` và ```[11.582430, 108.991113]``` thì dùng URL: http://localhost:8080/Part2/rest-points/app/10.850700@106.764722,11.582430@108.991113
 - Web service sẽ trả về kết quả ở dạng json là: ```{ "distance":256.0 }```
 ## Ex2:
-- Ap chuyển đổi tiền tệ
+- App chuyển đổi tiền tệ
 - File apk nằm trong thư mục:```Ex2\app\build\outputs\apk\debug``` 
