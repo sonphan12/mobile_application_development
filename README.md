@@ -18,4 +18,4 @@
 - Web service sẽ trả về kết quả ở dạng json là: ```{ "distance":256.0 }```
 ## Ex2:
 - App chuyển đổi tiền tệ
-- File apk nằm trong thư mục:```Ex2\app\build\outputs\apk\debug``` 
+- File apk nằm trong thư mục:```Ex2\app\apk``` 
