@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Part 1/src"/>
+	<classpathentry kind="lib" path="Part 1/app/app.jar"/>
+	<classpathentry kind="lib" path="Part 1/json-20180130.jar"/>
+	<classpathentry kind="output" path="Part 1/bin"/>
+</classpath>
